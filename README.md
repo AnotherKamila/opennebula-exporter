@@ -24,6 +24,9 @@ One day this will be a full-fledged exporter. For now, here's a quick hack:
    ```
 
 3. Configure node_exporter to collect the file: add the flag
-   ```--collector.textfile.directory=/service/node_exporter/textfiles```. Make sure the directory exists and has correct permissions.
+   ```
+   --collector.textfile.directory=/service/node_exporter/textfiles
+   ```
+   Make sure the directory exists and has correct permissions.
 
-4. Enjoy your new shiny metric.
+4. Enjoy your shiny new metric.
