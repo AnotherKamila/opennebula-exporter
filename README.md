@@ -28,4 +28,3 @@ One day this will be a full-fledged exporter. For now, here's a quick hack:
    Make sure the directory exists and has correct permissions.
 
 4. Enjoy your shiny new metric.
-
